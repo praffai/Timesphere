@@ -1,0 +1,10 @@
+% This is an ascii file that defines the boundaries of the parameter space to be explored in the fitting process, as well as the step length applied by simulated annealing along the different dimensions of the parameter space. Each row in the file corresponds to one parameter to be fitted, and thus the number of rows define the number of parameters or the number of dimensions of the parameter space. Note that since with this code package, we are only fitting a single parameter (sigma_sample), this file should contain only one row of elements. The columns in the file correspond to the lower (Column #1) and the upper boundary (Column #2) of a parameter interval to be explored, and the step length (Column #3) applied by simulated annealing within the interval. For more details about the sigma_sample parameter, see Suzuki et al., ApJ 746, 1, 85, 24 (2012); e-print: https://arxiv.org/abs/1105.3470.
+%
+% Credits: 
+% Peter Raffai, Gergely Dalya, Alexandra Karsai; 
+% Institute of Physics, Eotvos Lorand University, H-1117 Budapest, Pazmany P. s. 1/A.
+% All rights reserved. (2021)
+% Contact: peter.raffai@ttk.elte.hu
+%
+% Lower		Upper	Step
+0		1	0.001	

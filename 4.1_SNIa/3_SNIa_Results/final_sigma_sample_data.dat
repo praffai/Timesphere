@@ -1,0 +1,33 @@
+% This ascii file defines the sigma_sample values for the various SNIa survey samples, obtained as the final stable result of an iterative running of the fitting (see folder '1_SNIa_Fitter') and the sigma_sample calculation process (see folder '2_SNIa_Sigma'). For details about what sigma_sample values are and how they should be calculated, check Suzuki et al., ApJ 746, 1, 85, 24 (2012); e-print: https://arxiv.org/abs/1105.3470). 
+%
+% The file contains the following columns:
+% Column #1 - an integer number from 1-19 indicating which survey sample the SNIa data was taken from. The names of the surveys are listed in a reversed order in Figure 3 of Suzuki et al. 2012.
+% Column #2 - values of sigma_sample for the different surveys. The starting value is sigma_sample=0.15 for all surveys. The values are then recalculated in an iterative process after each fit, until the fitting process converges to a stable set of parameters and sigma_sample values. In this file, Column #2 contains the final stable results of the iteration for sigma_sample values.
+% Column #3 - the number of SNe filtered out from the different survey samples by DataFilter. A data point is filtered out if it deviates from a reference model by more than 3 sigma (this process is commonly used under the name 'sigma clipping'). The reference model is a Timesphere model of the universe, with the only parameter, the h=H0/(100 km/(s*Mpc)) reduced Hubble constant set to h=0.62339 based on its best-fit value we obtained from the cosmic chronometer fit (see. Sharov, G. S., & Vasiliev, V. O., MMG 6, 1, 1 (2018), eprint arXiv:1807.07323).
+%
+% Credits: 
+% Peter Raffai, Gergely Dalya, Alexandra Karsai; 
+% Institute of Physics, Eotvos Lorand University, H-1117 Budapest, Pazmany P. s. 1/A.
+% All rights reserved. (2021)
+% Contact: peter.raffai@ttk.elte.hu
+%
+%	Survey no.		sigma_sample	   Number of SNe filtered
+   1.0000000000000000e+00	   1.3810132999999999e-01	   0.0000000000000000e+00	
+   2.0000000000000000e+00	   1.4417869999999999e-01	   0.0000000000000000e+00	
+   3.0000000000000000e+00	   1.6352020000000000e-01	   0.0000000000000000e+00	
+   4.0000000000000000e+00	   1.9019775000000000e-01	   0.0000000000000000e+00	
+   5.0000000000000000e+00	   5.5405959999999997e-02	   0.0000000000000000e+00	
+   6.0000000000000000e+00	   1.4213816000000001e-01	   0.0000000000000000e+00	
+   7.0000000000000000e+00	   1.4590017000000000e-01	   0.0000000000000000e+00	
+   8.0000000000000000e+00	   9.9822722000000003e-02	   0.0000000000000000e+00	
+   9.0000000000000000e+00	   2.2863902000000000e-01	   0.0000000000000000e+00	
+   1.0000000000000000e+01	   3.6788008000000000e-01	   0.0000000000000000e+00	
+   1.1000000000000000e+01	   5.2757032000000002e-02	   0.0000000000000000e+00	
+   1.2000000000000000e+01	   8.8309442000000002e-02	   0.0000000000000000e+00	
+   1.3000000000000000e+01	   1.4638578999999999e-01	   0.0000000000000000e+00	
+   1.4000000000000000e+01	   1.8092011000000000e-01	   0.0000000000000000e+00	
+   1.5000000000000000e+01	   9.4471833000000005e-02	   0.0000000000000000e+00	
+   1.6000000000000000e+01	   2.7611501999999998e-04	   0.0000000000000000e+00	
+   1.7000000000000000e+01	   2.8276938000000001e-01	   1.0000000000000000e+00	
+   1.8000000000000000e+01	   1.3542476000000001e-01	   0.0000000000000000e+00	
+   1.9000000000000000e+01	   8.0863480000000001e-02	   0.0000000000000000e+00	
